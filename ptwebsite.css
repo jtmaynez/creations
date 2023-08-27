@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Arbutus+Slab&display=swap');
+/* HTML */
+body{
+    max-width: 1400px;
+    margin: 0 120px 0 120px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #f36087;
+}
+
+footer img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: start;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: gold;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center; /* Add this line to center-align the footer content */
+    text-align: center; /* Add this line for center-aligning text content */
+}
+footer h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+p{
+    font-size: 25px;
+    font-family: 'Alegreya Sans';
+}
+
+li{
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 10px;
+    /* padding-left: 30px; */
+    
+}
+header{
+    background-color: gold;
+    
+}
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 5%; */
+}
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 60px;
+    /* margin: 10px; */
+    font-size: 25px;
+    
+}
+nav a:hover {
+    background-color: #f36087;
+    color: #fedf5f;
+    border-radius: 20%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+/* Classes for main */
+
+.social {
+    grid-column: 3/4;
+
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+footer .contact-info {
+    grid-column: 2;
+    text-align: center;
+    color: black;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info-row h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.info-row p {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.testimonies {
+    text-align: center;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+  
+.scroll {
+    text-align: center;
+    border: 2px solid #f36087;
+    max-width: 600px; /* Adjust this value as needed */
+    height: 300px;
+    overflow: auto;
+    margin: 50px;
+}
+
+.button-box {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.book {
+    color: #f36087;
+    background-color: #044bae;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius:10px;
+    font-weight: bold;
+    font-family: 'Arbutus Slab';
+    
+}
+
+.book:hover {
+    background-color: #f36087;
+    color: #044bae
+}
+
+.wheel {
+    
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 45px;
+    
+    /* height: 100vh; Adjust the height as needed */
+}
+
+.interactive-image {
+    display: grid;
+    width: 70%;
+    height: 70%;
+    position: relative;left: 170px
+}
+  
+
+
+/* .pediatric {
+-webkit-transform: rotate(-30deg);
+-moz-transform: rotate(-30deg);
+-ms-transform: rotate(-30deg);
+-o-transform: rotate(-30deg);
+transform: rotate(-30deg);
+border-radius: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+  
+.pediatric {
+    position: absolute;
+    bottom: 100px;
+    left: 460px;
+    transform: rotate(-30deg);
+}
+
+
+.physical {
+    position: absolute;
+    bottom: 100px;
+    right: 530px;
+    transform: rotate(30deg);
+}
+.massage {
+    position: absolute;
+    bottom: -250px;
+    right: 320px;
+    transform: rotate(90deg);
+}
+
+.personal_training {
+    position: absolute;
+    top: 1490px;
+    right: 460px;
+    transform: rotate(-30deg);
+}
+
+.bike_fitness{
+    position: absolute;
+    top: 1490px;
+    left: 460px;
+    transform: rotate(30deg);
+}
+.neuro{
+    position: absolute;
+    bottom: -250px;
+    left: 290px;
+    transform: rotate(90deg);
+}
+
+
+/* ID */
+#hero{
+    text-align: center;
+}   
+#hero img{
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 30px;
+}
